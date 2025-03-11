@@ -1,0 +1,6 @@
+# Ignore everything by default
+*
+
+!.gitignore
+!.env.example
+!pl_team_analysis.py
