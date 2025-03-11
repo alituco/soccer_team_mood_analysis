@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-load_dotenv()  # Load environment variables from .env file
+load_dotenv()  
 
 import os
 import re
@@ -52,7 +52,6 @@ leagues = {
     }
 }
 
-# Get Twitter Bearer Token from .env file
 BEARER_TOKEN = os.environ.get("TWITTER_BEARER_TOKEN")
 
 def fetch_tweets_for_team(team_name, num_tweets=10):
